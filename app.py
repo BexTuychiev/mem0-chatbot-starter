@@ -177,7 +177,7 @@ def process_user_input(prompt: str):
         for chunk, metadata in st.session_state.agent.stream(
             {"messages": [{"role": "user", "content": prompt}]},
             stream_mode="messages",
-            config={"recursion_limit": 15},
+            config={"recursion_limit": 25},
         ):
             node = metadata.get("langgraph_node")
 
