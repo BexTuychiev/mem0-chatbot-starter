@@ -12,7 +12,7 @@ A Streamlit chatbot that combines document retrieval (Chroma) with persistent us
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/YOUR_USERNAME/mem0-chatbot-starter.git
+git clone https://github.com/BexTuychiev/mem0-chatbot-starter.git
 cd mem0-chatbot-starter
 ```
 
